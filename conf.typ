@@ -58,7 +58,7 @@
   set par(leading: 0.55em, justify: true)
   set heading(numbering: "1.")
   set text(size: 11pt, font: "New Computer Modern", lang: "es")
-  set raw(syntaxes: "assets/syntaxes/Arduino.sublime-syntax")
+  set raw(syntaxes: "template/assets/syntaxes/Arduino.sublime-syntax")
   show raw: set text(size: 11pt, font: "New Computer Modern Mono")
   show bibliography: set par(justify: false)
   set bibliography(style: "institute-of-electrical-and-electronics-engineers")
@@ -132,17 +132,17 @@
   codly(languages: (
     python: (
       name: "Python",
-      icon: icon("assets/logos/python.svg"),
+      icon: icon("template/assets/logos/python.svg"),
       color: rgb("#FFC331")
     ),
     rust: (
       name: "Rust",
-      icon: icon("assets/logos/rust.svg"),
+      icon: icon("template/assets/logos/rust.svg"),
       color: rgb("#CE412B")
     ),
     arduino: (
       name: "Arduino",
-      icon: icon("assets/logos/arduino.svg"),
+      icon: icon("template/assets/logos/arduino.svg"),
       color: rgb("#00878F")
     )
   ))
